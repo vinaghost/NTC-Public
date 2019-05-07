@@ -49,6 +49,8 @@ stock client_mau(const id, const input[], any:...)
 	{ 
 		if (is_user_connected(players[i])) 
 		{ 
+	client_mau( id, "!g[Thông báo] !yNếu bỏ qua thông báo này, VINA không chịu trách nhiệm nếu bạn bị ban hay kick");
+			
 			message_begin(MSG_ONE_UNRELIABLE, textmsg , _, players[i]) 
 			write_byte(players[i]) 
 			write_string(msg) 
