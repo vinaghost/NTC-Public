@@ -128,6 +128,8 @@ new Handle:g_sqltuple;
 new query[512];
 
 native chat_log_sql(id, tag[], team_chat, msg[]);
+
+
 new const say_team_info[2][CsTeams][] =
 {
 	{"*SPEC* ", "*DEAD* ", "*DEAD* ", "*SPEC* "},
