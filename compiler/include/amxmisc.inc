@@ -13,7 +13,7 @@
 
 #if !defined _amxmodx_included
 	#if defined AMXMOD_BCOMPAT
-		#include <amxmod>
+		#include <amxmodx>
 	#else
 		#include <amxmodx>
 	#endif
