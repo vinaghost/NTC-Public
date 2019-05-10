@@ -432,6 +432,8 @@ public HookSay(id)
 		if(!is_user_connected(i))
 			continue
 		
+		if( (!is_user_alive(id) && is_user_alive(i) ) || (!is_user_alive(i) && is_user_alive(id)))
+			continue
 		send_message(g_message, id, i)
 		
 	}
